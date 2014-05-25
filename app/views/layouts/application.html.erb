@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head> <link rel="stylesheet" href="//railsgirls.com/assets/bootstrap.css" />
-<link rel="stylesheet" href="//railsgirls.com/assets/bootstrap-theme.css" />
+<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap.min.css">
   
   <title>Railsgirls</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
@@ -23,6 +23,10 @@
     <div class="collapse navbar-collapse">
       <ul class="nav navbar-nav">
         <li class="active"><a href="/ideas">Ideas</a></li>
+        <li ><%= link_to 'New Idea', new_idea_path %></li>
+        <li><%= link_to 'Linkedin Profile', 'https://www.linkedin.com/profile/view?id=229758623&trk=nav_responsive_tab_profile_pic'%></li>
+        <li><%= link_to 'Facebook', 'https://www.facebook.com/julia.rokicka.9'%></li>
+        
       </ul>
     </div>
   </div>
@@ -36,5 +40,7 @@
   </div>
 </footer>
 <script src="//railsgirls.com/assets/bootstrap.js"></script>
+  <div> <img src='https://fbcdn-profile-a.akamaihd.net/hprofile-ak-prn1/v/t1.0-1/c0.0.160.160/p160x160/562875_10200921574297388_1111882024_n.jpg?oh=9441a756c3b020dbccb8126febea8825&oe=5409C2A9&__gda__=1409090750_5eb7f9eedc6ba30334715ff77dd104e0' />
+  </div>
 </body>
 </html>
